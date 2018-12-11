@@ -1,7 +1,7 @@
 # Introducing inmation:webtrend
 
-inmation has been working on an exiting new project - **inmation:webtrend**. **WebTrend** is a *trend display application* with the charts data directly coming from system:inmation. System:inmation and the WebTrend is a powerful combination, allowing the end user to track, compare and spot the abnormalities that are crucial for continues operations, in close to the real event time. Giving that extra edge for swift decision making. \
-Trends between system:inmation and the WebTrend are streamed by the inmation Web API (Application Programming Interface), which is hosted in a Windows Service. It can be used by any external application as an interface to system:inmation, using the HTTP or WebSocket Interface. This architecture allows a very fast data streaming to the WebTrend.
+inmation has been working on an exiting new project - **inmation:webtrend**. WebTrend is a *trend display application* with the charts data directly coming from system:inmation. System:inmation and the WebTrend is a powerful combination, allowing the end user to track, compare and spot the abnormalities that are crucial for continues operations, in close to the real event time. Giving that extra edge for swift decision making. \
+Trends between system:inmation and the WebTrend are streamed by the *inmation Web API* (Application Programming Interface), which is hosted in a Windows Service. It can be used by any external application as an interface to system:inmation, using the HTTP or WebSocket Interface. This architecture allows a very fast data streaming to the WebTrend.
 
 ![WebTrend](./webtrend.png "WebTrend")
 
@@ -49,4 +49,4 @@ The users of Visual KPI can benefit from the WebTrend too, as it can be embedded
 
 ## 4. Deployment
 
-WebTrend is shipped with inmation Web API since version 1.46. WebTrend can be accessed via the following URL: http(s)://%Web API host name%:8002/static/webtrend
+WebTrend is shipped with inmation Web API since version 1.46. WebTrend can be accessed via the following URL: http(s)://%Web API host name%:8002/static/webtrend.
