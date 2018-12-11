@@ -1,6 +1,7 @@
 # Introducing inmation:webtrend
 
-inmation has been working on an exiting new project - **inmation:webtrend**. **WebTrend** is a *trend display application* with the charts data directly coming from the system:inmation. System:inmation and the WebTrend is a powerful combination, allowing the end user to track, compare and spot the abnormalities that are crucial for continues operations, in close to the real event time. Giving that extra edge for swift decision making.
+inmation has been working on an exiting new project - **inmation:webtrend**. **WebTrend** is a *trend display application* with the charts data directly coming from system:inmation. System:inmation and the WebTrend is a powerful combination, allowing the end user to track, compare and spot the abnormalities that are crucial for continues operations, in close to the real event time. Giving that extra edge for swift decision making. \
+Trends between system:inmation and the WebTrend are streamed by the inmation Web API (Application Programming Interface), which is hosted in a Windows Service. It can be used by any external application as an interface to system:inmation, using the HTTP or WebSocket Interface. This architecture allows a very fast data streaming to the WebTrend.
 
 ![WebTrend](./webtrend.png "WebTrend")
 
@@ -12,23 +13,15 @@ WebTrend offers users a neat interface and extensive functionality. Most importa
 
 ### Web application
 
-inmation:system DataStudio already offered a RealTimeTrend display, the main differences between DataStudio RealTimeTrend display and the WebTrend is that WebTrend is a web application, while the RealTimeTrend is hosted in the DataStudio. This allows to access WebTrend separately from the DataStudio.
-
-### Speed
-
-Trends between system:inmation and the WebTrend are streamed by the system:inmation Web API (Application Programming Interface), which is hosted in a Windows Service. It can be used by any external application as an interface to system:inmation, using the HTTP or WebSocket Interface. This architecture allows a very fast data streaming to the WebTrend.
+system:inmation DataStudio already offered a RealTimeTrend display, the main differences between DataStudio RealTimeTrend display and the WebTrend is that WebTrend is a web application, while the RealTimeTrend is build in DataStudio. This allows to access WebTrend from any modern web browser.
 
 ### Actual values
 
 Actual values are the last know values of the item, they are displayed on the right bottom corner of the WebTrend screen.
 
-### User friendly
-
-WebTrend interface is easy to use and has a fresh modern look and feel. Features such as color picking from the wide variety colour pallet just adds an extra pleasant touch.
-
 ### Live
 
-Live trend streaming is an option to play the selected trends. When play button is pressed the actual values are incoming with a 10 second delay and are directly displayed on your screen as a number value and as a trend.
+Live trend streaming is an option to play the selected trends. When play button is pressed the actual values are incoming with a 10 second interval and are directly displayed on your screen as a number value and as a trend.
 
 ### KPI model
 
@@ -48,12 +41,12 @@ ___
 
 ## 2. DataStudio and the WebTrend
 
-Newest version of DataStudio supports the WebTrend. To open a WebTrend in the DataStudio choose item in the I/O model ,right mouse click on the selected item and choose add items to WebTrend. WebTrend will be displayed in the display section of the DataStudio.
+DataStudio version 1.46 or higher supports the WebTrend. To open a WebTrend in the DataStudio choose item in the I/O model ,right mouse click on the selected item and choose add items to WebTrend. WebTrend will be displayed in the display section of the DataStudio.
 
 ## 3. Visual KPI and WebTrend
 
 The users of Visual KPI can benefit from the WebTrend too, as it can be embedded into Visual KPI dashboard.
 
-## 4. Configurations
+## 4. Deployment
 
-What do you need in order to use WebTrend? The only requirement is inmation Web API version 1.46 or higher.
+WebTrend is shipped with inmation Web API since version 1.46. WebTrend can be accessed via the following URL: http(s)://%Web API host name%:8002/static/webtrend

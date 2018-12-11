@@ -1,6 +1,6 @@
 # inmation Web Docs
 
-Documentation and examples of inmation Web instances.
+Documentation and examples of applications which makes use of inmation Web API.
 
 ## inmation WebTrend
 
