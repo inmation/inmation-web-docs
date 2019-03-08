@@ -35,6 +35,7 @@ The users of Visual KPI can benefit from the WebTrend too, as it can be embedded
 ## 5. Deployment
 
 WebTrend is shipped with inmation Web API starting from 1.46 version. WebTrend can be accessed via the following URL links:
+
 | Description  | URL |  
 |---------|-------------|
 | Base URL | http(s)://baseaddress/static/webtrend/ |
